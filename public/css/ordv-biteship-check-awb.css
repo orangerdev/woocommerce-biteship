@@ -1,0 +1,49 @@
+input[type="text"]{
+    background-color: transparent !important;
+    border: 1px solid rgb(219, 219, 219) !important;
+    box-shadow: none !important;
+}
+
+.button{
+    border-radius: 4px !important;
+}
+
+.detail-resi{
+    border:1px solid #f14668 !important;
+    padding:1em !important; 
+    padding-bottom: calc(.5em - 1px) !important;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+    padding-top: calc(.5em - 1px) !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+}
+
+#hasil-data{
+    margin: 32px 0px;
+}
+
+.status-paket .table tbody tr td{
+    background-color: transparent !important;
+}
+
+.status-paket .table tbody tr td:last-child{
+    padding-top:18px !important;
+}
+
+table tbody td{
+    border: none !important;
+    padding: 0 .75em !important;
+}
+
+table tbody td p{
+    padding: 1em 0 0 1em !important;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.text-right{
+    text-align: right !important;
+}
