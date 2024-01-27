@@ -1,0 +1,272 @@
+
+/**
+* Base table
+*/
+
+
+.data-paket .table,
+.status-paket .table{
+    background-color: white;
+    color: #363636;
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+  }
+  
+  .data-paket .table td,
+  .data-paket .table th,
+  .status-paket .table td,
+  .status-paket .table th {    
+    border: 1px solid #dbdbdb;
+    border-width: 0 0 1px;
+    padding: 0.5em 0.75em;
+    vertical-align: top;
+  }
+  
+  .data-paket .table td.is-white,
+  .data-paket .table th.is-white,
+  .status-paket .table td.is-white,
+  .status-paket .table th.is-white{
+    background-color: white;
+    border-color: white;
+    color: #0a0a0a;
+  }
+  
+  .data-paket .table td.is-black,
+  .data-paket .table th.is-black,
+  .status-paket .table td.is-black,
+  .status-paket .table th.is-black{
+    background-color: #0a0a0a;
+    border-color: #0a0a0a;
+    color: white;
+  }
+  
+  .data-paket .table td.is-light,
+  .data-paket .table th.is-light,
+  .status-paket .table td.is-light,
+  .status-paket .table th.is-light{
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .data-paket .table td.is-dark,
+  .data-paket .table th.is-dark,
+  .status-paket .table td.is-dark,
+  .status-paket .table th.is-dark{
+    background-color: #363636;
+    border-color: #363636;
+    color: #fff;
+  }
+  
+  .data-paket .table td.is-primary,
+  .data-paket .table th.is-primary,
+  .status-paket .table td.is-primary,
+  .status-paket .table th.is-primary{
+    background-color: #00d1b2;
+    border-color: #00d1b2;
+    color: #fff;
+  }
+  
+  .data-paket .table td.is-link,
+  .data-paket .table th.is-link,
+  .status-paket .table td.is-link,
+  .status-paket .table th.is-link {
+    background-color: #485fc7;
+    border-color: #485fc7;
+    color: #fff;
+  }
+  
+  .data-paket .table td.is-info,
+  .data-paket .table th.is-info,
+  .status-paket .table td.is-info,
+  .status-paket .table th.is-info {
+    background-color: #3e8ed0;
+    border-color: #3e8ed0;
+    color: #fff;
+  }
+  
+  .data-paket .table td.is-success,
+  .data-paket .table th.is-success,
+  .status-paket .table td.is-success,
+  .status-paket .table th.is-success {
+    background-color: #48c78e;
+    border-color: #48c78e;
+    color: #fff;
+  }
+  
+  .data-paket .table td.is-warning,
+  .data-paket .table th.is-warning,
+  .status-paket .table td.is-warning,
+  .status-paket .table th.is-warning{
+    background-color: #ffe08a;
+    border-color: #ffe08a;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .data-paket .table td.is-danger,
+  .data-paket .table th.is-danger,
+  .status-paket .table td.is-danger,
+  .status-paket .table th.is-danger {
+    background-color: #f14668;
+    border-color: #f14668;
+    color: #fff;
+  }
+  
+  .data-paket .table td.is-narrow,
+  .data-paket .table th.is-narrow,
+  .status-paket .table td.is-narrow,
+  .status-paket .table th.is-narrow {
+    white-space: nowrap;
+    width: 1%;
+  }
+  
+  .data-paket .table td.is-selected,
+  .data-paket .table th.is-selected,
+  .status-paket .table td.is-selected,
+  .status-paket .table th.is-selected {
+    background-color: #00d1b2;
+    color: #fff;
+  }
+  
+  .data-paket .table td.is-selected a,
+  .data-paket .table td.is-selected strong,
+  .data-paket .table th.is-selected a,
+  .data-paket .table th.is-selected strong,
+  .status-paket .table td.is-selected a,
+  .status-paket .table td.is-selected strong,
+  .status-paket .table th.is-selected a,
+  .status-paket .table th.is-selected strong{
+    color: currentColor;
+  }
+  
+  .data-paket .table td.is-vcentered,
+  .data-paket .table th.is-vcentered,
+  .status-paket .table td.is-vcentered,
+  .status-paket .table th.is-vcentered{
+    vertical-align: middle;
+  }
+  
+  .data-paket .table th,
+  .status-paket .table th{
+    color: #363636;
+  }
+  
+  .data-paket .table th:not([align]),
+  .status-paket .table th:not([align]){
+    text-align: left;
+  }
+  
+  .data-paket .table tr.is-selected,
+  .status-paket .table tr.is-selected{
+    background-color: #00d1b2;
+    color: #fff;
+  }
+  
+  .data-paket .table tr.is-selected a,
+  .data-paket .table tr.is-selected strong,
+  .status-paket .table tr.is-selected a,
+  .status-paket .table tr.is-selected strong{
+    color: currentColor;
+  }
+  
+  .data-paket .table tr.is-selected td,
+  .data-paket .table tr.is-selected th,
+  .status-paket .table tr.is-selected td,
+  .status-paket .table tr.is-selected th{
+    border-color: #fff;
+    color: currentColor;
+  }
+  
+  .data-paket .table thead,
+  .status-paket .table thead{
+    background-color: transparent;
+  }
+  
+  .data-paket .table thead td,
+  .data-paket .table thead th,
+  .status-paket .table thead td,
+  .status-paket .table thead th{
+    border-width: 0 0 2px;
+    color: #363636;
+  }
+  
+  .data-paket .table tfoot,
+  .status-paket .table tfoot{
+    background-color: transparent;
+  }
+  
+  .data-paket .table tfoot td,
+  .data-paket .table tfoot th,
+  .status-paket .table tfoot td,
+  .status-paket .table tfoot th {
+    border-width: 2px 0 0;
+    color: #363636;
+  }
+  
+  .data-paket .table tbody,
+  .status-paket .table tbody{
+    background-color: transparent;
+  }
+  
+  .data-paket .table tbody tr:last-child td,
+  .data-paket .table tbody tr:last-child th,
+  .status-paket .table tbody tr:last-child td,
+  .status-paket .table tbody tr:last-child th{
+    border-bottom-width: 0;
+  }
+  
+  .data-paket .table.is-bordered td,
+  .data-paket .table.is-bordered th,
+  .status-paket .table.is-bordered td,
+  .status-paket .table.is-bordered th{
+    border-width: 1px;
+  }
+  
+  .data-paket .table.is-bordered tr:last-child td,
+  .data-paket .table.is-bordered tr:last-child th,
+  .status-paket .table.is-bordered tr:last-child td,
+  .status-paket .table.is-bordered tr:last-child th{
+    border-bottom-width: 1px;
+  }
+  
+  .data-paket .table.is-fullwidth,
+  .status-paket .table.is-fullwidth{
+    width: 100%;
+  }
+  
+  .data-paket .table.is-hoverable tbody tr:not(.is-selected):hover,
+  .status-paket .table.is-hoverable tbody tr:not(.is-selected):hover{
+    background-color: #fafafa;
+  }
+  
+  .data-paket .table.is-hoverable.is-striped tbody tr:not(.is-selected):hover,
+  .status-paket .table.is-hoverable.is-striped tbody tr:not(.is-selected):hover{
+    background-color: #fafafa;
+  }
+  
+  .data-paket .table.is-hoverable.is-striped tbody tr:not(.is-selected):hover:nth-child(even),
+  .status-paket .table.is-hoverable.is-striped tbody tr:not(.is-selected):hover:nth-child(even){
+    background-color: whitesmoke;
+  }
+  
+  .data-paket .table.is-narrow td,
+  .data-paket .table.is-narrow th,
+  .status-paket .table.is-narrow td
+  .status-paket .table.is-narrow th{
+    padding: 0.25em 0.5em;
+  }
+  
+  .data-paket .table.is-striped tbody tr:not(.is-selected):nth-child(even),
+  .status-paket .table.is-striped tbody tr:not(.is-selected):nth-child(even){
+    background-color: #fafafa;
+  }
+  
+  .data-paket .table-container,
+  .status-paket .table-container {
+    -webkit-overflow-scrolling: touch;
+    overflow: auto;
+    overflow-y: hidden;
+    max-width: 100%;
+  }
+
+/* End of base table */
