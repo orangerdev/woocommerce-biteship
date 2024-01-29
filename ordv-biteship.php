@@ -122,7 +122,7 @@ use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 $myUpdateChecker = PucFactory::buildUpdateChecker(
 	'https://github.com/orangerdev/woocommerce-biteship',
 	__FILE__,
-	'ordv-biteship'
+	'woocommerce-biteship'
 );
 
 $myUpdateChecker->setBranch('main');
