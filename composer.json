@@ -1,5 +1,6 @@
 {
     "require": {
-        "htmlburger/carbon-fields": "^3.3"
+        "htmlburger/carbon-fields": "^3.3",
+        "yahnis-elsts/plugin-update-checker": "^5.3"
     }
 }

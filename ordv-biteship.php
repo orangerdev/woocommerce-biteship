@@ -16,7 +16,7 @@
  * Plugin Name:       OrangerDev - Biteship
  * Plugin URI:        https://ridwan-arifandi.com
  * Description:       Biteship integration with WooCommerce.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Ridwan Arifandi
  * Author URI:        https://ridwan-arifandi.com
  * License:           GPL-2.0+
@@ -35,7 +35,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'ORDV_BITESHIP_VERSION', '1.0.0' );
+define( 'ORDV_BITESHIP_VERSION', '1.0.1' );
 
 define( 'ORDV_BITESHIP_PATH', plugin_dir_path( __FILE__ ) );
 define( 'ORDV_BITESHIP_URI', plugin_dir_url( __FILE__ ) );
@@ -116,3 +116,14 @@ function __print_debug()
 endif;
 
 run_ordv_biteship();
+
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
+$myUpdateChecker = PucFactory::buildUpdateChecker(
+	'https://github.com/orangerdev/woocommerce-biteship',
+	__FILE__,
+	'ordv-biteship'
+);
+
+$myUpdateChecker->setBranch('main');
+$myUpdateChecker->setAuthentication('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');
